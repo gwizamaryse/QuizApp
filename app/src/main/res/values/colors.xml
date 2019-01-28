@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- color applied to bar -->
+    <color name="colorPrimary">#FFC107</color>
+
+    <!-- color applied to -->
+    <color name="colorPrimaryDark">#FFA000</color>
+
+    <!--will be applied to checkbox -->
+    <color name="colorAccent">#80DEEA</color>
+</resources>

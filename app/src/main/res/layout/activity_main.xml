@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back6"
+    tools:context=".MainActivity">
+    /**
+    *
+    * image is labeled free of usage for non commercial usage
+    */
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Interesting Facts"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:fontFamily=""
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+          />
+
+        <EditText
+            android:id="@+id/addName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:textColor="#ffffff"
+            android:inputType="textCapWords"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:id="@+id/question1_gender"
+            android:text="@string/question_1"
+            style="@style/QuestionsStyle" />
+
+        <CheckBox
+            android:id="@+id/Question1_checkBox1"
+            android:text="@string/question1_checkbox1"
+            style="@style/checkboxStyle" />
+
+        <CheckBox
+            android:id="@+id/question_checkBox2"
+            android:text="@string/question1_checkbox2"
+            style="@style/checkboxStyle"/>
+
+        <CheckBox
+            android:id="@+id/question1_checkbox_rwanda"
+            android:text="@string/question1_checkbox3"
+            style="@style/checkboxStyle" />
+
+        <CheckBox
+            android:id="@+id/Question1_checkBox4"
+            android:text="@string/question1_checkbox4"
+            style="@style/checkboxStyle" />
+
+        <TextView
+            android:id="@+id/question2"
+            android:text="@string/question_2"
+            style="@style/QuestionsStyle" />
+
+        <CheckBox
+            android:id="@+id/question2_checkbox_japan"
+            android:text="@string/question2_checkbox1"
+            style="@style/checkboxStyle" />
+
+        <CheckBox
+            android:text="@string/question2_checkbox2"
+            style="@style/checkboxStyle" />
+
+        <CheckBox
+            android:text="@string/question2_checkbox3"
+             style="@style/checkboxStyle"/>
+
+        <CheckBox
+            android:id="@+id/question2_checkbox4"
+            android:text="@string/question2_checkbox4"
+            style="@style/checkboxStyle"/>
+
+        <TextView
+            android:id="@+id/question3"
+            android:text="@string/question_3"
+            style="@style/QuestionsStyle"/>
+
+        <CheckBox
+            android:id="@+id/question3_checkbox1_rwanda"
+            android:text="@string/question3_checkbox1"
+            style="@style/checkboxStyle" />
+
+        <CheckBox
+            android:id="@+id/question3_checkbox2_uganda"
+            android:text="@string/question3_checkbox2"
+            style="@style/checkboxStyle" />
+
+        <CheckBox
+            android:id="@+id/question3_checkbox3_congo"
+            android:text="@string/question3_checkbox3"
+            style="@style/checkboxStyle"/>
+
+        <CheckBox
+            android:text="@string/question3_checkbox4"
+            style="@style/checkboxStyle"/>
+
+        <TextView
+            android:id="@+id/question4"
+            android:text="@string/question_4"
+            style="@style/QuestionsStyle"/>
+
+        <CheckBox
+            android:text="@string/question4_checkbox1"
+            style="@style/checkboxStyle" />
+
+        <CheckBox
+            android:id="@+id/question4_checkbox2_195"
+            android:text="@string/question4_checkbox2"
+            style="@style/checkboxStyle" />
+
+        <CheckBox
+            android:text="@string/question4_checkbox3"
+            style="@style/checkboxStyle"/>
+
+        <CheckBox
+            android:text="@string/question4_checkbox4"
+            style="@style/checkboxStyle"/>
+
+        <TextView
+            android:id="@+id/question5"
+            android:text="@string/question_5"
+            style="@style/QuestionsStyle"/>
+
+        <CheckBox
+            android:text="@string/question5_checkbox1"
+            style="@style/checkboxStyle" />
+
+        <CheckBox
+            android:id="@+id/question5_checkbox2_rwanda"
+            android:text="@string/question5_checkbox2"
+            style="@style/checkboxStyle" />
+
+        <CheckBox
+            android:text="@string/question5_checkbox3"
+            style="@style/checkboxStyle"/>
+
+        <CheckBox
+            android:text="@string/question5_checkbox4"
+            style="@style/checkboxStyle"/>
+
+
+        <Button
+            android:id="@+id/submitQuiz"
+            android:layout_gravity="center"
+            style="@style/QuestionsStyle"
+            android:text="Submit Quiz"
+            android:paddingTop="15dp"
+            android:onClick="submitQuizz"/>
+
+        <TextView
+            android:id="@+id/quizSummary"
+            android:text="Quiz Summary "
+            android:layout_gravity="center"
+            style="@style/QuestionsStyle"
+            android:paddingTop="20dp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

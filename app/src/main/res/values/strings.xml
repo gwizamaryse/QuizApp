@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <!--  Questions strings and checkbox -->
+
+    <string  name="question_1"> Question 1:
+        which of the following countries has the world\'s highest representation of women in parliament? </string>
+
+    <string name="question1_checkbox1"> United state of America </string>
+    <string name="question1_checkbox2"> Bolivia </string>
+    <string name="question1_checkbox3"> Rwanda </string>
+    <string name="question1_checkbox4"> Japan </string>
+
+
+    <string name="question_2"> Question 2:
+        which of the following countries is often referred to as the country of the rising sun?  </string>
+
+    <string name="question2_checkbox1"> Japan </string>
+    <string name="question2_checkbox2"> Israel </string>
+    <string name="question2_checkbox3"> Nepal </string>
+    <string name="question2_checkbox4"> China </string>
+
+    <string name="question_3"> Question 3:
+        In which of the following countries can you see the endangered species of mountain gorillas?  </string>
+
+    <string name="question3_checkbox1"> Rwanda </string>
+    <string name="question3_checkbox2"> Uganda </string>
+    <string name="question3_checkbox3"> Congo </string>
+    <string name="question3_checkbox4"> Kenya </string>
+
+
+    <string name="question_4"> Question 4:
+        How many countries are in the world ? select the best answer</string>
+
+    <string name="question4_checkbox1"> 135 </string>
+    <string name="question4_checkbox2"> 195 </string>
+    <string name="question4_checkbox3"> 267 </string>
+    <string name="question4_checkbox4"> 1000 </string>
+
+    <string name="question_5"> Question 5:
+        which country is often referred to as the land of a thousand hills?   </string>
+
+    <string name="question5_checkbox1"> Norway </string>
+    <string name="question5_checkbox2"> Rwanda </string>
+    <string name="question5_checkbox3"> Uganda </string>
+    <string name="question5_checkbox4"> Ireland </string>
+
+</resources>
